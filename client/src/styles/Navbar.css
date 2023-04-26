@@ -1,0 +1,42 @@
+.navbar .container {
+    width: 1024px;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+}   
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Link {
+    text-decoration: none;
+    color: inherit;
+    font-size: 16px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.writting {
+    background-color: #b9e7e7;
+    width: 100px;
+    height: 70px;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+.zayvka {
+    color: inherit;
+    text-decoration: none !important;
+}
+
+.logo {
+    width: 120px;
+}
