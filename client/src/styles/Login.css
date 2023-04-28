@@ -4,16 +4,17 @@
     justify-content: center;
     height: 100vh;
     background-color: #b9e7e7;
+    width: 1024px;
   }
   
-  h1 {
+  .auth  h1 {
     text-align: center;
     font-size: 30px;
     color: teal;
     margin-bottom: 20px;
   }
   
-  form {
+  .auth form {
     display: flex;
     flex-direction: column;
     padding: 10px;
@@ -22,25 +23,25 @@
     gap: 20px;
   }
   
-  input {
+  .auth  input {
     padding: 10px;
     border: none;
     border-bottom: 1px solid grey;
   }
-  .btn {
+  .auth  .btn {
     padding: 10px;
     border: none;
     background-color: teal;
     cursor: pointer;
     color: white;
   }
-  p {
+  .auth p {
     font-size: 12px;
     color: red;
     text-align: center;
   }
 
-  span {
+  .auth span {
     text-align: center;
     font-size: 12px;
   }
